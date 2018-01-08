@@ -83,7 +83,7 @@ public class FBDatabase {
         database.getReference("answers/" + nextQuestionIndex + "/answers_count").addListenerForSingleValueEvent(valueEventListener);
     }
 
-    public boolean upateNextQuestion(boolean isWinner) {
+    public boolean updateNextQuestion(boolean isWinner) {
         boolean hasNextQuestion = false;
         if (isWinner && shouldSeeNextQuestion()) {
             ++nextQuestionIndex;
