@@ -15,9 +15,9 @@ public class App extends Application {
     //based on parity
     private static final String ROPSTEN_TEST_NET_URL = "http://parity.rounds.video:8545";
     private static final String MAIN_NET_URL = "http://mainnet.rounds.video:8545";
-    private static final String PASSPHRASE_KEY = "passphraeKey";
+    private static final String PASSPHRASE_KEY = "passphraseKey";
     private static final String TUTORIAL_KEY = "tutorialKey";
-    private static final String SHARE_PREF = "kingkongSharePref";
+    private static final String SHARE_PREF = "kinkongSharePref";
     private KinClient kinClient = null;
     private SharedPreferences sharedPreferences;
 
