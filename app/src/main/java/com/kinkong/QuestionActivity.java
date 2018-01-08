@@ -192,7 +192,7 @@ public class QuestionActivity extends BaseActivity {
         updateAnswersColors();
         updateLayout();
         animateVoting();
-        boolean hasNextQuestion = FBDatabase.getInstance().upateNextQuestion(isWinner);
+        boolean hasNextQuestion = FBDatabase.getInstance().updateNextQuestion(isWinner);
         waitForNextScreen(hasNextQuestion);
     }
 
